@@ -79,12 +79,13 @@ career-profile:
     an Architect role, aiming to deepening my technical knowledge.
     I've designed various architectural solutions for FullStack Web Projects, 
     Batch processing and Data ingestion / Streaming both in Cloud and On-premises
+
 education:
   title: Education
   info:
-  - degree: MSc in Computer Science
-    university: University of London
-    time: 2011 - 2012
+  - degree: Laurea Magistrale, Informatica (Sistemi e Reti)
+    university: Alma Mater Studiorum - Università di Bologna
+    time: Sep 2017 - Mar 2020
     details: |
       Describe your study here lorem ipsum dolor sit amet, consectetuer
       adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -93,9 +94,9 @@ education:
       pretium quis, sem.
         - Bullet point
         - Bullet point
-  - degree: BSc in Applied Mathematics
-    university: Bristol University
-    time: 2007 - 2011
+  - degree: Laurea, Informatica per il Management
+    university: Alma Mater Studiorum - Università di Bologna
+    time: Sep 2014 - Dec 2017
     details: |
       Describe your study here lorem ipsum dolor sit amet, consectetuer
       adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
