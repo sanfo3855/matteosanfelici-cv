@@ -19,20 +19,20 @@ sidebar:
   citizenship: Italian
   website: https://sanfo3855.github.io/online-cv/ # Include the full website URL, including "http://" or "https://".
   linkedin: matteosanfelici
-  # xing: alandoe
+  xing:
   github: sanfo3855
   telegram: sanfo3855 # add your nickname without '@' sign
-  #gitlab:
-  #bitbucket:
-  #bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
-  #twitter: '@jekyllrb'
-  #stack-overflow: # Number/Username, e.g. 123456/alandoe
-  #codewars:
-  #goodreads: # Number-Username, e.g. 123456-alandoe
-  #mastodon: # Please include your full Mastodon link here.
-  #hackerrank: # Please provide your HackerRank username.
-  #leetcode: # Please provide your LeetCode username.
-  #pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+  gitlab:
+  bitbucket:
+  bluesky:  # Specify your full Bluesky handle
+  twitter: 
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+  codewars:
+  goodreads: # Number-Username, e.g. 123456-alandoe
+  mastodon: # Please include your full Mastodon link here.
+  hackerrank: # Please provide your HackerRank username.
+  leetcode: # Please provide your LeetCode username.
+  pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
 
   languages:
     title: Languages
