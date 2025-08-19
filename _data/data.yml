@@ -8,54 +8,55 @@ sidebar:
   education: True # set to False if you want education in main section instead of in sidebar
 
   # Profile information
-  name: Alan Doe
-  tagline: Full Stack Developer
+  name: Matteo Sanfelici
+  tagline: Senior Developer and Architect @ Technology Reply | Solution Design, Microservices and System Integration, Cloud-Native Applications, Data Streaming Pipelines
   avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
-  email: example@email.com
-  phone: 012 345 6789
-  timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
-  citizenship:
-  website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-  linkedin: alandoe
-  xing: alandoe
-  github: jekyll
-  telegram: # add your nickname without '@' sign
-  gitlab:
-  bitbucket:
-  bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
-  twitter: '@jekyllrb'
-  stack-overflow: # Number/Username, e.g. 123456/alandoe
-  codewars:
-  goodreads: # Number-Username, e.g. 123456-alandoe
-  mastodon: # Please include your full Mastodon link here.
-  hackerrank: # Please provide your HackerRank username.
-  leetcode: # Please provide your LeetCode username.
-  pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+  email: sanfelicimatteo@gmail.com
+  phone: +39 346 1643404
+  timezone: Europe/Rome # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+  citizenship: Italian
+  website: https://sanfo3855.github.io/online-cv/ # Include the full website URL, including "http://" or "https://".
+  linkedin: matteosanfelici
+  # xing: alandoe
+  github: sanfo3855
+  telegram: sanfo3855 # add your nickname without '@' sign
+  #gitlab:
+  #bitbucket:
+  #bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
+  #twitter: '@jekyllrb'
+  #stack-overflow: # Number/Username, e.g. 123456/alandoe
+  #codewars:
+  #goodreads: # Number-Username, e.g. 123456-alandoe
+  #mastodon: # Please include your full Mastodon link here.
+  #hackerrank: # Please provide your HackerRank username.
+  #leetcode: # Please provide your LeetCode username.
+  #pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
 
   languages:
     title: Languages
     info:
-    - idiom: English
+    - idiom: Italian
       level: Native
 
-    - idiom: French
+    - idiom: English
       level: Professional
 
     - idiom: Spanish
-      level: Professional
+      level: Elementary
 
   interests:
     title: Interests
     info:
+    - item: Travelling
+      link:
+      
     - item: Climbing
       link:
 
-
-    - item: Snowboarding
-      link:
-
+    - item: Running
+      link: 
 
     - item: Cooking
       link:
