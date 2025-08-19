@@ -9,7 +9,7 @@ sidebar:
 
   # Profile information
   name: Matteo Sanfelici
-  tagline: Senior Developer and Architect @ Technology Reply | Solution Design, Microservices and System Integration, Cloud-Native Applications, Data Streaming Pipelines
+  tagline: Senior Developer and Architect @ Technology Reply | Solution Design | Microservices and System Integration | Cloud-Native Applications | Data Streaming Pipelines
   avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
@@ -17,7 +17,7 @@ sidebar:
   phone: +39 346 1643404
   timezone: Europe/Rome # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
   citizenship: Italian
-  website: https://sanfo3855.github.io/online-cv/ # Include the full website URL, including "http://" or "https://".
+  website: # Include the full website URL, including "http://" or "https://".
   linkedin: matteosanfelici
   xing:
   github: sanfo3855
