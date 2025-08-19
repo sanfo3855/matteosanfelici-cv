@@ -65,10 +65,17 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    Senior Developer and Architect with experience in leading projects, designing architectural solutions in the banking IT sector. 
-    I have started as Developer working in areas such as Home Banking and Digital product sales. 
-    Proving my Technical and Team leading quality I have managed design and release of projects from scratch as well as application maintenance and the evolution of existing Legacy assets.
-    In the last year I have moved from a cross Technical / Managment role to am Architect role, aiming to expand my knowledge different technologies and architectural solutions. 
+    Senior Developer and Architect with experience in leading projects, 
+    designing architectural solutions in the banking IT sector. 
+    I have started as Developer working in areas such as Home Banking 
+    and Digital product sales. 
+    Proving my Technical and Team leading quality I have managed design 
+    and release of projects from scratch as well as application maintenance 
+    and the evolution of existing Legacy assets.
+    In the last year I have moved from a cross Technical / Managment role to 
+    an Architect role, aiming to deepening my technical knowledge.
+    I've designed various architectural solutions for FullStack Web Projects, 
+    Batch processing and Data ingestion / Streaming both in Cloud and On-premises
 education:
   title: Education
   info:
