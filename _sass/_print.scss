@@ -3,7 +3,6 @@
     size: A4;
   }
   body {
-    font-size: 9pt;
     background-color: white;
     padding: 0;
   }
@@ -16,7 +15,7 @@
   //     -webkit-filter: greyscale(1);
   //   }
   .main-wrapper .time {
-    padding: 10px 30px 10px 10px;
+    //padding: 10px 30px 10px 10px;
     //  float: right;
     //  color: black !important;
     -webkit-print-color-adjust: exact;

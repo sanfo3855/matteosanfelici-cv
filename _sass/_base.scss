@@ -198,6 +198,8 @@ p {
     margin-bottom: 2px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+
   }
   .job-title,
   .degree,
@@ -213,11 +215,9 @@ p {
 
   .time,
   .cert-url {
-    position: absolute;
-    right: 0;
-    top: 0;
+    position: relative;    
+    text-align: right;
     color: $text-grey;
-    flex: 25%;
     font-weight: 600;
   }
   .company,
@@ -243,6 +243,7 @@ p {
     }
     .info {
       flex: 1;
+      justify-content: space-between;
     }
   }
   .project-title {
