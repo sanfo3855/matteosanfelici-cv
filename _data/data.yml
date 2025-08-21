@@ -66,20 +66,13 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    Senior Developer and Architect with experience in leading projects, 
-    designing architectural solutions in the banking IT sector.
+    Senior Developer and Architect with experience in leading projects, designing architectural solutions in the banking IT sector.
 
-    I have started as Developer working with Web Development and Microservices in areas such as Home Banking
-    and Digital product sales.
-
-    Proving my Technical and Team leading quality I have managed design
-    and release of Fullstack projects from scratch as well as application maintenance
-    and the evolution of existing assets based also on Legacy technology and Architecture.
+    I have started as Developer working with Web Development and Microservices in areas such as Home Banking and Digital product sales.
     
-    In the last year I have moved from a cross Technical / Managment role to 
-    an Architect role, aiming to deepening my technical knowledge.
-    I've designed various architectural solutions for FullStack Web Projects, Backend with Microservices,
-    Batch processing and Data ingestion / Streaming both in Cloud and On-premises infrastructure.
+    Proving my Technical and Team leading quality I have managed design and release of Fullstack projects from scratch as well as application maintenance and the evolution of existing assets based also on Legacy technology and Architecture.
+    
+    In the last year I have moved from a cross Technical / Management role to an Architect role, aiming to deepening my technical knowledge. I've designed various architectural solutions for FullStack Web Projects, Backend with Microservices, Batch processing and Data ingestion / Streaming both in Cloud and On-premises infrastructure.
 
 education:
   title: Education
@@ -103,6 +96,7 @@ experiences:
   - role: Senior Developer / Architect
     time: May 2024 - Present
     company: Technology Reply, Padua (Remote)
+    logo: /assets/images/technology_reply_srl_logo.jpeg
     details: |
       Led development and architecture design of user tracking solutions, home banking assessments, and data streaming projects. Delivered React libraries, cloud-native GCP solutions, Ververica pipelines, and multi-layered infrastructures, enhancing scalability, reliability, and operational insights.
 
@@ -181,6 +175,7 @@ experiences:
   - role: Senior Developer / Team Leader
     time: Jan 2023 - Jul 2024
     company: Technology Reply, Milan (Remote)
+    logo: /assets/images/technology_reply_srl_logo.jpeg
     details: |
       Senior Developer and Team Leader in maintenance, evolution and modernization projects of digital assets and banking components following a cloud native approach.
     projects:
@@ -206,6 +201,7 @@ experiences:
   - role: Junior Developer
     time: May 2020 - Jan 2023
     company: Technology Reply, Milan (Remote)
+    logo: /assets/images/technology_reply_srl_logo.jpeg
     details: |
       Junior Developer of digital sales portals for banking products, with expertise in Appian, Java Spring Boot, OpenShift, Oracle DB, GWT/AngularJS. Delivered back-office platforms, anti-fraud engines, and multi-bank consortium solutions.
     projects:
@@ -236,7 +232,91 @@ experiences:
           - Git
           - Websphere application server
           - IBM DB2
+  
+  - role: Freelance Developer
+    time: Apr 2020 - Jun 2020
+    company: Alma Mater Studiorum - University of Bologna, Bologna
+    logo: /assets/images/unibo_logo.jpeg
+    details: |
+      FullStack Developer for university project, focusing on web development and microservices. Developed applications using Node, Angular, and Mongo DB.
+    projects:
+      - team: Philology Departments
+        project: Unibo PRIN
+        time: Apr 2020 - Jun 2020
+        description: |
+          FullStack Developer of a data collection web application for a research project (Unibo PRIN, Philology research). Developed applications using Angular, Node.js and MongoDB, implementing a configurable process with user authentication and configurable questions and answers.
+        skills:
+          - Angular
+          - Node.js
+          - MongoDB
+          - Express.js
+          - Typescript
+          - Git
+          - Apache Web Server
+  
+  - role: Academic Tutor - Numerical Analysis
+    time: Sep 2018 - Dec 2019
+    company: Alma Mater Studiorum - University of Bologna, Bologna
+    logo: /assets/images/unibo_logo.jpeg
+    details: |
+      Academic Tutor for Numerical Analysis course at the University of Bologna, providing support to students in understanding numerical analysis concepts. 
+    projects:
+      - team: Economics and Statistics Department
+        project: Quantitative Finance
+        time: Sep 2018 - Dec 2019
+        description: |
+          Assisted students in the Quantitative Finance course, focusing on numerical methods and their applications in finance. Provided tutoring sessions and supported students in their coursework using Mathematica Programming language.
+        skills:
+          - Tutoring
+          - Numerical Analysis
+          - Mathematica Programming Language
+          - Student Support
+          - English
+          - Teaching
+  
+  - role: Intership - Software Developer
+    time: Jun 2019 - Sep 2019
+    company: Imola Informatica, Imola (Bologna)
+    logo: /assets/images/imola_informatica_logo.jpeg
+    details: |
+      Internship as Software Developer at Imola Informatica, focusing on unit testing and software development for Jolie, a microservices-oriented programming language.
+    projects:
+      - team: Jolie Development Team
+        project: JoUnit
+        time: Jul 2017 - Oct 2017
+        description: |
+          Developed JoUnit a testing framework for Jolie, a microservices-oriented programming language, and contributed to the development of the testing orchestration and integration of Jolie Microservices, automating the testing process using Docker and Docker Compose.
 
+        skills:
+          - Jolie
+          - JoUnit
+          - Docker
+          - Docker Compose 
+          - Microservices
+          - Unit Testing
+
+skills:
+  title: Skills &amp; Proficiency
+
+  toolset:
+  - name: Microservices
+    level: 80%
+
+  - name: Software Solution Architecture
+    level: 65%
+  
+  - name: Cloud Applications
+    level: 60%
+
+  - name: Data Ingestion and Streaming
+    level: 60%
+
+  - name: FullStack Development
+    level: 55% 
+
+
+
+NO USED SECTION:
 
 certifications:
   title: Certifications
@@ -290,22 +370,3 @@ recommendations:
     role: General Director at example.com
     recommendation: |
       Alan Doe is a super employee!
-
-skills:
-  title: Skills &amp; Proficiency
-
-  toolset:
-  - name: Microservices
-    level: 80%
-
-  - name: Software Solution Architecture
-    level: 65%
-  
-  - name: Cloud Applications
-    level: 60%
-
-  - name: Data Ingestion and Streaming
-    level: 60%
-
-  - name: FullStack Development
-    level: 55% 

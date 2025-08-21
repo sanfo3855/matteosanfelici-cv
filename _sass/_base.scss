@@ -218,6 +218,7 @@ p {
     top: 0;
     color: $text-grey;
     flex: 25%;
+    font-weight: 600;
   }
   .company,
   .recommendation-role,
@@ -227,6 +228,23 @@ p {
     color: $text-grey;
   }
 
+  .experience-meta {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+
+    .logo {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      margin-right: 15px;
+      box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+    }
+    .info {
+      flex: 1;
+    }
+  }
   .project-title {
     font-size: 16px;
     font-weight: 400;
@@ -246,39 +264,81 @@ p {
   .project-item {
     padding-left: 15px;
     padding-top: 15px;
-    .project-title {
-      font-size: 15px;
-      font-weight: 500;
-      color: $text-color;
-      flex: 25%;
-    }
-    .project-description {
-      font-size: 13px;
-      color: $text-color-secondary;
-    }
-    .project-time {
-      font-size: 13px;
-      position: absolute;
-      right: 0;
-      top: 0;
-      color: $text-grey;
-      flex: 25%;
-    }
-    .skills {
-      margin-top: 10px;
-      margin-bottom: 0;
-      list-style: none;
-      padding-left: 0;
-      font-size: 12px;;
-      li {
-        display: inline-block;
-        background: $smoky-white;
-        color: $text-color-secondary;
-        padding: 5px 5px;
-        border-radius: 10px;
-        margin-right: 5px;
-        margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+
+    .project-side {
+      flex: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+      .dot {
+        color: darkgray;
+        font-size: 5px;
+        margin: 0 0 5px 0;
+        padding-top: 7px;
       }
+
+      .line {
+        margin-top: 5px;
+        border-left: 2px solid darkgray;
+        border-radius: 1px;
+        height: 100%;
+      }
+
+    }
+
+    .project-content {
+      position: relative;
+      padding-left: 15px;  
+ 
+      .project-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+
+        .project-title {
+          font-size: 15px;
+          font-weight: 500;
+          color: $text-color;
+          flex: 75%;
+        }
+
+        .project-time {
+          font-size: 13px;
+          color: $text-grey;
+          flex: 25%;
+          text-align: right;
+        }
+      }
+    
+      .project-details {
+        
+        .project-description {
+          font-size: 13px;
+          color: $text-color-secondary;
+        }
+
+      }
+
+      .skills {
+        margin-top: 10px;
+        margin-bottom: 0;
+        list-style: none;
+        padding-left: 0;
+        font-size: 12px;;
+        li {
+          display: inline-block;
+          background: $smoky-white;
+          color: $text-color-secondary;
+          padding: 5px 5px;
+          border-radius: 10px;
+          margin-right: 5px;
+          margin-bottom: 5px;
+        }
+      }
+
     }
   }
 

@@ -12,14 +12,18 @@
   {% for experience in experiences.info %}
   <div class="item">
 
-    <div class="meta">
-
-      <div class="upper-row">
-        <h2 class="job-title"><strong>{{ experience.role }}</strong></h2>
-        <div class="time">{{ experience.time }}</div>
-      </div><!--//upper-row-->
+    <div class="meta experience-meta">
+      {% if experience.logo %}      
+      <img src="{{ experience.logo}}" alt="{{ experience.company }}" class="logo">
+      {% endif %}
+      <div class="info">
+        <div class="upper-row">          
+          <h2 class="job-title"><strong>{{ experience.role }}</strong></h2>
+          <div class="time">{{ experience.time }}</div>
+        </div><!--//upper-row-->
 
       <div class="company">{{ experience.company }}</div>
+      </div> 
 
     </div><!--//meta-->
 
@@ -31,26 +35,35 @@
       <div>
         {% for project in experience.projects %}
         <div class="project-item">
-          <div class="upper-row">
-            <h4 class="project-title">{{ project.team }} - {{ project.project}}</h4>
-            <div class="project-time">{{ project.time }}</div>
-          </div>          
-          <div class="project-description">{{ project.description }}</div>
-          {% if project.skills %}
-          <ul class="skills">
-            {% for skill in project.skills %}
-            <li>{{ skill }}</li>
-            {% endfor %}
-          </ul>
-          {% endif %}
+          <div class="project-side">
+            <i class="fa fa-circle dot" aria-hidden="true"></i>
+            <div class="line"></div>
+          </div>
+          <div class="project-content">
+            <div class="project-header">              
+              <div class="project-title">{{ project.team }} - {{ project.project}}</div>
+              <div class="project-time">{{ project.time }}</div>
+            </div>
+            <div class="project-details">
+              <div class="project-description">{{ project.description }}</div>
+              {% if project.skills %}
+              <ul class="skills">
+                {% for skill in project.skills %}
+                <li>{{ skill }}</li>
+                {% endfor %}
+              </ul>
+              {% endif %}
+            </div>
+          </div><!--//project-content-->
         </div><!--//project-->
         {% endfor %}
       </div><!--//projects-->
+      {% endif %}
+  
+    </div><!--//details-->
     {% endif %}
   
-  </div><!--//details-->
-  {% endif %}
-
+    <hr>
   </div><!--//item-->
   {% endfor %}
 
