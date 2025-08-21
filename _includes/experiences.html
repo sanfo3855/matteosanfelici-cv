@@ -26,8 +26,30 @@
     {% if experience.details %}
     <div class="details">
       {{ experience.details | markdownify }}
-    </div><!--//details-->
+     
+      {% if experience.projects %}
+      <div class="projects">
+        {% for project in experience.projects %}
+        <div class="project">
+          <strong>{{ project.team }}</strong>: {{ project.project}}<br>
+          <span class="project_description">{{ project.description }}</span>
+          {% if project.time %}
+          <span class="project_time">{{ project.time }}</span>
+          {% endif %}
+          {% if project.skills %}
+          <ul class="skills">
+            {% for skill in project.skills %}
+            <li>{{ skill }}</li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+        </div><!--//project-->
+        {% endfor %}
+      </div><!--//projects-->
     {% endif %}
+  
+  </div><!--//details-->
+  {% endif %}
 
   </div><!--//item-->
   {% endfor %}

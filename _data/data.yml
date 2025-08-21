@@ -9,7 +9,8 @@ sidebar:
 
   # Profile information
   name: Matteo Sanfelici
-  tagline: Senior Developer and Architect @ Technology Reply | Solution Design | Microservices and System Integration | Cloud-Native Applications | Data Streaming Pipelines
+  tagline: Senior Developer and Architect @Technology Reply 
+  skills: Solution Design | Microservices and System Integration | Cloud-Native Applications | Data Streaming Pipelines
   avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
@@ -66,64 +67,78 @@ career-profile:
   title: Career Profile
   summary: |
     Senior Developer and Architect with experience in leading projects, 
-    designing architectural solutions in the banking IT sector. 
-    
-    I have started as Developer working in areas such as Home Banking 
-    and Digital product sales. 
-    
-    Proving my Technical and Team leading quality I have managed design 
-    and release of projects from scratch as well as application maintenance 
-    and the evolution of existing Legacy assets.
+    designing architectural solutions in the banking IT sector.
+
+    I have started as Developer working with Web Development and Microservices in areas such as Home Banking
+    and Digital product sales.
+
+    Proving my Technical and Team leading quality I have managed design
+    and release of Fullstack projects from scratch as well as application maintenance
+    and the evolution of existing assets based also on Legacy technology and Architecture.
     
     In the last year I have moved from a cross Technical / Managment role to 
     an Architect role, aiming to deepening my technical knowledge.
-    I've designed various architectural solutions for FullStack Web Projects, 
-    Batch processing and Data ingestion / Streaming both in Cloud and On-premises
+    I've designed various architectural solutions for FullStack Web Projects, Backend with Microservices,
+    Batch processing and Data ingestion / Streaming both in Cloud and On-premises infrastructure.
 
 education:
   title: Education
   info:
-  - degree: Laurea Magistrale, Informatica (Sistemi e Reti)
-    university: Alma Mater Studiorum - Università di Bologna
+  - degree: Masters Degree, Computer Science (System and Networks)
+    degree_original: Laurea Magistrale, Informatica per il Management
+    university: Alma Mater Studiorum - University of Bologna
     time: Sep 2017 - Mar 2020
     details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - degree: Laurea, Informatica per il Management
-    university: Alma Mater Studiorum - Università di Bologna
+      Description of your study
+  - degree: Bachelors Degree, Computer Science and Management 
+    degree_original: Laurea, Informatica per il Management
+    university: Alma Mater Studiorum - University of Bologna
     time: Sep 2014 - Dec 2017
     details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
+      Description of your study
 
 experiences:
   title: Experiences
   info:
-  - role: Lead Developer
-    time: 2015 - Present
-    company: Startup Hubs, San Francisco
+  - role: Senior Developer / Architect
+    time: May 2024 - Present
+    company: Technology Reply, Milan
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
-        - Bullet point
-        - Bullet point
+      Led development and architecture design of user tracking solutions, home banking assessments, 
+      and data streaming projects. Delivered React libraries, Microservices, cloud-native GCP solutions, Ververica 
+      pipelines, and multi-layered infrastructures, enhancing scalability, reliability, and operational 
+      insights.
+
+    projects:
+      - team: Credit Agricole
+        project: User Tracking and Analytics
+        time: 
+        description: |
+          Developed a highly optimized React library for user tracking, analytics, and feedback across 
+          legacy and modern applications, sending data to Dynatrace for dashboard monitoring. 
+          Designed a centralized Fullstack Application with a microservices Backend for multi-application 
+          campaign management. 
+          Contributed to architectural and infrastructure design (React, Angular, Springboot, OpenShift, NGINX) and collaborated with a development team on implementation.
+        skills:
+
+      - team: Banco BPM
+        project: Home Banking Assessment
+        description: |
+          description
+        skills:
+
+      - team: Azimut
+        project: Data Streaming Infrastructure on GCP
+        description: |
+          description
+        skills:
+
+      - team: Credit Agricole
+        project: Data Streaming on Ververica
+        description: |
+          description
+        skills:
+
   - role: Senior Software Engineer
     time: 2014 - 2015
     company: Google, London
