@@ -98,7 +98,7 @@ experiences:
     company: Technology Reply, Padua (Remote)
     logo: /assets/images/technology_reply_srl_logo.jpeg
     details: |
-      Led development and architecture design of user tracking solutions, home banking assessments, and data streaming projects. Delivered React libraries, cloud-native GCP solutions, Ververica pipelines, and multi-layered infrastructures, enhancing scalability, reliability, and operational insights.
+      Led development and architecture design of fullstack solutions, infrastructure configuration / assessments, and data streaming projects. Delivered React libraries, cloud-native GCP solutions, Ververica pipelines, and multi-layered infrastructures, enhancing scalability, reliability, and operational insights.
 
     projects:
       - team: Unicredit
@@ -122,7 +122,7 @@ experiences:
           - GCP
           - Git
           - Jenkins
-          
+
       - team: Credit Agricole
         project: User Instant Feedback
         time: Jun 2025 - Now
