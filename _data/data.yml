@@ -101,6 +101,28 @@ experiences:
       Led development and architecture design of user tracking solutions, home banking assessments, and data streaming projects. Delivered React libraries, cloud-native GCP solutions, Ververica pipelines, and multi-layered infrastructures, enhancing scalability, reliability, and operational insights.
 
     projects:
+      - team: Unicredit
+        project: Lending Platform
+        time: Jul 2025 - Now
+        description: |
+          I worked on the initial setup of a project based on MicroFrontends (React) and Microservices (Spring Boot), configuring the project’s base skeleton, the DevOps pipelines with Jenkins, and the infrastructure as code with Helm to deploy everything on a Kubernetes infrastructure on GCP.
+        skills:
+          - Web Development
+          - Microservices
+          - MicroFrontends
+          - Infrastructure as Code
+          - DevOps
+          - FullStack Development
+          - React
+          - Typescript
+          - Spring Boot
+          - Java
+          - Kubernetes
+          - Helm
+          - GCP
+          - Git
+          - Jenkins
+          
       - team: Credit Agricole
         project: User Instant Feedback
         time: Jun 2025 - Now
