@@ -66,13 +66,13 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    Senior Developer and Architect with experience in leading projects, designing architectural solutions in the banking IT sector.
+    Senior Developer and Architect with experience in leading projects, designing <b>architectural solutions</b> in the banking IT sector.
 
-    I have started as Developer working with Web Development and Microservices in areas such as Home Banking and Digital product sales.
-    
-    Proving my Technical and Team leading quality I have managed design and release of Fullstack projects from scratch as well as application maintenance and the evolution of existing assets based also on Legacy technology and Architecture.
-    
-    In the last year I have moved from a cross Technical / Management role to an Architect role, aiming to deepening my technical knowledge. I've designed various architectural solutions for FullStack Web Projects, Backend with Microservices, Batch processing and Data ingestion / Streaming both in Cloud and On-premises infrastructure.
+    I have started as Developer working with <b>Web Development</b> and <b>Microservices</b> in areas such as Home Banking and Digital product sales.
+
+    Proving my <b>Technical and Team leading</b> quality I have managed design and release of <b>Fullstack</b> projects from scratch as well as <b>application maintenance</b> and the evolution of existing assets based also on <b>Legacy technology and Architecture</b>.
+
+    In the last year I have moved from a cross Technical / Management role to an <b>Architect role</b>, aiming to deepening my technical knowledge. I've designed various architectural solutions for <b>FullStack Web Projects</b>, <b>Backend with Microservices</b>, <b>Batch processing</b> and <b>Data ingestion / Streaming</b> both in Cloud and On-premises infrastructure.
 
 education:
   title: Education
@@ -94,7 +94,7 @@ experiences:
   title: Experiences
   info:
   - role: Senior Developer / Architect
-    time: May 2024 - Present
+    time: May 2024 - Now
     company: Technology Reply, Padua (Remote)
     logo: /assets/images/technology_reply_srl_logo.jpeg
     details: |
@@ -102,20 +102,24 @@ experiences:
 
     projects:
       - team: Credit Agricole
-        project: User Tracking and Analytics
+        project: User Instant Feedback
         time: Jun 2025 - Now
         description: |
           Developed a highly optimized React library for user tracking, analytics, and feedback across legacy and modern applications, sending data to Dynatrace for dashboard monitoring. Designed a centralized portal for multi-application campaign management. Contributed to architectural and infrastructure design (React, OpenShift, NGINX, Spring Boot) and collaborated with a development team on implementation.
         skills:
+          - Web Development
+          - Microservices
+          - Solution Architecture
+          - FullStack Development
+          - Team Leading
           - React
-          - User Activity Tracking
           - Dynatrace
           - Java
-          - Java Springboot
+          - Springboot
           - Git
-          - Microservices
           - Typescript
           - Openshift (Kubernetes)
+          - Mongo DB
 
       - team: Banco BPM
         project: Home Banking Assessment
@@ -132,37 +136,42 @@ experiences:
           - TLC
 
       - team: Azimut
-        project: Data Streaming Infrastructure on GCP
-        time: Sep 2024 - Jul 2025
+        project: Data Streaming on GCP
+        time: Oct 2024 - Jul 2025
         description: |
           Worked on migrating a legacy COBOL batch infrastructure to a cloud-native GCP architecture, leveraging Cloud Composer, Dataflow, and Cloud Storage. Designed and configured the GCP solution, implemented architectural libraries, and established Gitflow and CI/CD pipelines with Liquibase and Oracle CI/CD for SQL and PL/SQL components, enhancing scalability and maintainability.
         skills:
-          - Google Cloud Platform (GCP)
-          - Data Flow (GCP)
+          - Data Ingestion and Streaming
+          - Cloud Architecture
+          - Batch Processing
+          - Google Cloud Platform
+          - Data Flow
           - Apache Airflow
-          - Cloud Composer (GCP)
+          - Cloud Composer
           - Apache Beam
-          - Oracle SQL / PL-SQL
-          - Liquibase
-          - Oracle CI/CD - SQLcl
           - Cloud Storage Bucket
+          - Oracle DB
+          - SQL / PL-SQL
+          - Liquibase
+          - Oracle CI/CD
           - Python
           - GitFlow
           - Git
 
       - team: Credit Agricole
         project: Data Streaming on Ververica
-        time: Aug 2024 - Dec 2024
+        time: May 2024 - Nov 2024
         description: |
           Architect on a data streaming project handling batch and near real-time data from queues, file systems, and databases. Developed core Ververica implementations, automated cleanup procedures, and created complex inbound/outbound data jobs, enabling seamless transformations and outputs for central banking portal queries.
         skills:
+          - Data Streaming
+          - Batch Processing
           - Apache Flink
           - Ververica Platform
-          - Data Streaming
-          - Bash Scripting
-          - Python Scripting
-          - SQL
-          - Java 11 Apache Flink
+          - Bash
+          - Python
+          - SQL / PL-SQL
+          - Java
           - Kafka
           - Mongo DB
           - Unix System
@@ -185,18 +194,25 @@ experiences:
         description: |
           Team Leader and Solution Architect managing legacy maintenance (WebSphere, WPS Portal, COBOL), modernization of banking components, and development of new digital assets including home banking portals and microservices (Java Spring Boot, Angular, Kafka, OpenShift). Conducted infrastructure assessment and defined migration strategy of legacy and modern systems to AWS cloud.
         skills:
+          - Web Development
+          - Microservices
+          - FullStack Development
+          - Team Leading
+          - Solution Architecture
+          - Batch Processing
           - Angular
           - Kafka
-          - Java Springboot
+          - Java
+          - Springboot
           - Oracle DB
+          - SQL / PL-SQL
           - Git
           - Jenkins
           - Openshift (Kubernetes)
           - ELK/Kibana
-          - Websphere application server
+          - Websphere Application Server
           - Cobol/DB2
           - OPC IWS Mainframe Scheduler
-          - Batch processing
 
   - role: Junior Developer
     time: May 2020 - Jan 2023
@@ -211,11 +227,13 @@ experiences:
         description: |
           Developer and Architect of a back-office portal for digital sales of banking products (accounts, cards, loans, mortgages, insurance). Built with Appian, Java Spring Boot, OpenShift, Oracle DB, including a centralized engine for anti-fraud, credit, and eligibility checks.
         skills:
-          - Appian 
           - Low-code
+          - Microservices
+          - Appian 
           - Java
           - SpringBoot
           - Oracle DB
+          - SQL / PL-SQL
           - Git
           - Jenkins
           - Openshift (Kubernetes)
@@ -227,10 +245,16 @@ experiences:
         description: |
           Developer on multi-bank consortium sales portal, maintaining and evolving applications with GWT/AngularJS and Java Spring. Delivered enhancements, ensured stability, and deployed solutions on WebSphere Application Server using proprietary frameworks and DB2 integration.
         skills:
+          - Web Development
+          - Microservices
           - Framework GWT
           - Framework based on Springboot
+          - AngularJS
           - Git
           - Websphere application server
+          - MyBatis
+          - Oracle DB
+          - SQL / PL-SQL
           - IBM DB2
   
   - role: Freelance Developer
@@ -246,6 +270,9 @@ experiences:
         description: |
           FullStack Developer of a data collection web application for a research project (Unibo PRIN, Philology research). Developed applications using Angular, Node.js and MongoDB, implementing a configurable process with user authentication and configurable questions and answers.
         skills:
+          - Web Development
+          - Microservices
+          - FullStack Development
           - Angular
           - Node.js
           - MongoDB
@@ -275,7 +302,7 @@ experiences:
           - Teaching
   
   - role: Intership - Software Developer
-    time: Jun 2019 - Sep 2019
+    time: Jun 2017 - Oct 2017
     company: Imola Informatica, Imola (Bologna)
     logo: /assets/images/imola_informatica_logo.jpeg
     details: |
@@ -288,12 +315,12 @@ experiences:
           Developed JoUnit a testing framework for Jolie, a microservices-oriented programming language, and contributed to the development of the testing orchestration and integration of Jolie Microservices, automating the testing process using Docker and Docker Compose.
 
         skills:
+          - Microservices
+          - Unit Testing
           - Jolie
           - JoUnit
           - Docker
           - Docker Compose 
-          - Microservices
-          - Unit Testing
 
 skills:
   title: Skills &amp; Proficiency
@@ -312,7 +339,7 @@ skills:
     level: 60%
 
   - name: FullStack Development
-    level: 55% 
+    level: 60% 
 
 
 
