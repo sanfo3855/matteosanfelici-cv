@@ -188,6 +188,7 @@ p {
   .educations-section {
     .item {
       margin-bottom: 30px;
+      padding-left: 10px;;
     }
   }
   .upper-row,
@@ -196,6 +197,7 @@ p {
     overflow: hidden;
     margin-bottom: 2px;
     display: flex;
+    align-items: center;
   }
   .job-title,
   .degree,
@@ -240,6 +242,46 @@ p {
       margin-bottom: 15px;
     }
   }
+
+  .project-item {
+    padding-left: 15px;
+    padding-top: 15px;
+    .project-title {
+      font-size: 15px;
+      font-weight: 500;
+      color: $text-color;
+      flex: 25%;
+    }
+    .project-description {
+      font-size: 13px;
+      color: $text-color-secondary;
+    }
+    .project-time {
+      font-size: 13px;
+      position: absolute;
+      right: 0;
+      top: 0;
+      color: $text-grey;
+      flex: 25%;
+    }
+    .skills {
+      margin-top: 10px;
+      margin-bottom: 0;
+      list-style: none;
+      padding-left: 0;
+      font-size: 12px;;
+      li {
+        display: inline-block;
+        background: $smoky-white;
+        color: $text-color-secondary;
+        padding: 5px 5px;
+        border-radius: 10px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+      }
+    }
+  }
+
   .oss-section {
     .intro {
       margin-bottom: 30px;

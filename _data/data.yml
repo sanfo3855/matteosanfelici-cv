@@ -102,65 +102,141 @@ experiences:
   info:
   - role: Senior Developer / Architect
     time: May 2024 - Present
-    company: Technology Reply, Milan
+    company: Technology Reply, Padua (Remote)
     details: |
-      Led development and architecture design of user tracking solutions, home banking assessments, 
-      and data streaming projects. Delivered React libraries, Microservices, cloud-native GCP solutions, Ververica 
-      pipelines, and multi-layered infrastructures, enhancing scalability, reliability, and operational 
-      insights.
+      Led development and architecture design of user tracking solutions, home banking assessments, and data streaming projects. Delivered React libraries, cloud-native GCP solutions, Ververica pipelines, and multi-layered infrastructures, enhancing scalability, reliability, and operational insights.
 
     projects:
       - team: Credit Agricole
         project: User Tracking and Analytics
-        time: 
+        time: Jun 2025 - Now
         description: |
-          Developed a highly optimized React library for user tracking, analytics, and feedback across 
-          legacy and modern applications, sending data to Dynatrace for dashboard monitoring. 
-          Designed a centralized Fullstack Application with a microservices Backend for multi-application 
-          campaign management. 
-          Contributed to architectural and infrastructure design (React, Angular, Springboot, OpenShift, NGINX) and collaborated with a development team on implementation.
+          Developed a highly optimized React library for user tracking, analytics, and feedback across legacy and modern applications, sending data to Dynatrace for dashboard monitoring. Designed a centralized portal for multi-application campaign management. Contributed to architectural and infrastructure design (React, OpenShift, NGINX, Spring Boot) and collaborated with a development team on implementation.
         skills:
+          - React
+          - User Activity Tracking
+          - Dynatrace
+          - Java
+          - Java Springboot
+          - Git
+          - Microservices
+          - Typescript
+          - Openshift (Kubernetes)
 
       - team: Banco BPM
         project: Home Banking Assessment
+        time: April 2025 - Now
         description: |
-          description
+          Assessed a client’s home banking system, analyzing infrastructure, applications, security, and network components to identify performance bottlenecks. Collaborated with stakeholders to design a multi-layered architecture, reconstruct data flows, and produce detailed diagrams, enhancing system reliability, operational insight, and resilience in complex, high-demand environments.
         skills:
+          - Infrastructure Optimization
+          - Infrastructure Assesment
+          - Prototyping Tools
+          - Infrastructure Diagrams
+          - Networking
+          - Security
+          - TLC
 
       - team: Azimut
         project: Data Streaming Infrastructure on GCP
+        time: Sep 2024 - Jul 2025
         description: |
-          description
+          Worked on migrating a legacy COBOL batch infrastructure to a cloud-native GCP architecture, leveraging Cloud Composer, Dataflow, and Cloud Storage. Designed and configured the GCP solution, implemented architectural libraries, and established Gitflow and CI/CD pipelines with Liquibase and Oracle CI/CD for SQL and PL/SQL components, enhancing scalability and maintainability.
         skills:
+          - Google Cloud Platform (GCP)
+          - Data Flow (GCP)
+          - Apache Airflow
+          - Cloud Composer (GCP)
+          - Apache Beam
+          - Oracle SQL / PL-SQL
+          - Liquibase
+          - Oracle CI/CD - SQLcl
+          - Cloud Storage Bucket
+          - Python
+          - GitFlow
+          - Git
 
       - team: Credit Agricole
         project: Data Streaming on Ververica
+        time: Aug 2024 - Dec 2024
         description: |
-          description
+          Architect on a data streaming project handling batch and near real-time data from queues, file systems, and databases. Developed core Ververica implementations, automated cleanup procedures, and created complex inbound/outbound data jobs, enabling seamless transformations and outputs for central banking portal queries.
         skills:
+          - Apache Flink
+          - Ververica Platform
+          - Data Streaming
+          - Bash Scripting
+          - Python Scripting
+          - SQL
+          - Java 11 Apache Flink
+          - Kafka
+          - Mongo DB
+          - Unix System
+          - IWS Mainframe Scheduler
+          - Azure Dev Ops Pipelines
+          - Git
+          - Java
+          - Openshift (Kubernetes)
 
-  - role: Senior Software Engineer
-    time: 2014 - 2015
-    company: Google, London
+  - role: Senior Developer / Team Leader
+    time: Jan 2023 - Jul 2024
+    company: Technology Reply, Milan (Remote)
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - role: UI Developer
-    time: 2012 - 2014
-    company: Amazon, London
+      Senior Developer and Team Leader in maintenance, evolution and modernization projects of digital assets and banking components following a cloud native approach.
+    projects:
+      - team: BPER Banca
+        project: Home Banking
+        time: Jan 2023 - Jul 2024
+        description: |
+          Team Leader and Solution Architect managing legacy maintenance (WebSphere, WPS Portal, COBOL), modernization of banking components, and development of new digital assets including home banking portals and microservices (Java Spring Boot, Angular, Kafka, OpenShift). Conducted infrastructure assessment and defined migration strategy of legacy and modern systems to AWS cloud.
+        skills:
+          - Angular
+          - Kafka
+          - Java Springboot
+          - Oracle DB
+          - Git
+          - Jenkins
+          - Openshift (Kubernetes)
+          - ELK/Kibana
+          - Websphere application server
+          - Cobol/DB2
+          - OPC IWS Mainframe Scheduler
+          - Batch processing
+
+  - role: Junior Developer
+    time: May 2020 - Jan 2023
+    company: Technology Reply, Milan (Remote)
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
+      Junior Developer of digital sales portals for banking products, with expertise in Appian, Java Spring Boot, OpenShift, Oracle DB, GWT/AngularJS. Delivered back-office platforms, anti-fraud engines, and multi-bank consortium solutions.
+    projects:
+      - team: BPER Banca
+        project: Digital Sales
+        time: Dec 2021 - Jan 2023
+        description: |
+          Developer and Architect of a back-office portal for digital sales of banking products (accounts, cards, loans, mortgages, insurance). Built with Appian, Java Spring Boot, OpenShift, Oracle DB, including a centralized engine for anti-fraud, credit, and eligibility checks.
+        skills:
+          - Appian 
+          - Low-code
+          - Java
+          - SpringBoot
+          - Oracle DB
+          - Git
+          - Jenkins
+          - Openshift (Kubernetes)
+          - ELK/Kibana
+          - Dynatrace
+      - team: CSE Consortium
+        project: Digital Sales
+        time: May 2020 - Dec 2021
+        description: |
+          Developer on multi-bank consortium sales portal, maintaining and evolving applications with GWT/AngularJS and Java Spring. Delivered enhancements, ensured stability, and deployed solutions on WebSphere Application Server using proprietary frameworks and DB2 integration.
+        skills:
+          - Framework GWT
+          - Framework based on Springboot
+          - Git
+          - Websphere application server
+          - IBM DB2
+
 
 certifications:
   title: Certifications
@@ -173,35 +249,7 @@ certifications:
     credentialurl: www.google.com
     credentialname: Google
     details: |
-      Details about cert. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
-
-      Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-      fringilla vel. Ut euismod, sem sed vulputate venenatis,
-      justo diam viverra velit, sed rhoncus leo leo eu justo.
-      Suspendisse placerat risus ante, sed porta nisi blandit at.
-  - name: Git learning
-    start: 2019
-    end:
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.github.com
-    credentialname: Github
-    details: |
-      Older certification. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 projects:
   title: Projects
@@ -212,22 +260,6 @@ projects:
     link: "#hook"
     tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-  - title: DevStudio
-    link: "#"
-    tagline: "A responsive website template designed to help web developers/designers market their services."
-
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
 oss:
   title: OSS Contributions
   intro: >
@@ -236,14 +268,6 @@ oss:
   - title: Tempo
     link: "#"
     tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
   title: Publications
@@ -257,16 +281,6 @@ publications:
     authors: Donald E. Knuth
     conference: Addison-Wesley, 1968
 
-  - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-    link: "#"
-    authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-    conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-  - title: A syntax directed compiler for Algol 60
-    link: "#"
-    authors: Edgar T. Irons
-    conference: "Comm. ACM 4 (1961), 51–55"
-
 recommendations:
   title: Recommendations
   list:
@@ -276,36 +290,22 @@ recommendations:
     role: General Director at example.com
     recommendation: |
       Alan Doe is a super employee!
-  - person: Lara Henderson
-    email: larah@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      I would like to work with Alan Doe again!
-
-      He is a great employee!
 
 skills:
   title: Skills &amp; Proficiency
 
   toolset:
-  - name: Python & Django
-    level: 98%
+  - name: Microservices
+    level: 80%
 
-  - name: Javascript & jQuery
-    level: 98%
-
-  - name: Angular
-    level: 98%
-
-  - name: HTML5 & CSS
-    level: 95%
-
-  - name: Ruby on Rails
-    level: 85%
-
-  - name: Sketch & Photoshop
+  - name: Software Solution Architecture
+    level: 65%
+  
+  - name: Cloud Applications
     level: 60%
 
-#footer: >
-#  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+  - name: Data Ingestion and Streaming
+    level: 60%
+
+  - name: FullStack Development
+    level: 55% 

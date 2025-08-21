@@ -15,7 +15,7 @@
     <div class="meta">
 
       <div class="upper-row">
-        <h3 class="job-title">{{ experience.role }}</h3>
+        <h2 class="job-title"><strong>{{ experience.role }}</strong></h2>
         <div class="time">{{ experience.time }}</div>
       </div><!--//upper-row-->
 
@@ -24,18 +24,18 @@
     </div><!--//meta-->
 
     {% if experience.details %}
-    <div class="details">
+    <div>
       {{ experience.details | markdownify }}
      
       {% if experience.projects %}
-      <div class="projects">
+      <div>
         {% for project in experience.projects %}
-        <div class="project">
-          <strong>{{ project.team }}</strong>: {{ project.project}}<br>
-          <span class="project_description">{{ project.description }}</span>
-          {% if project.time %}
-          <span class="project_time">{{ project.time }}</span>
-          {% endif %}
+        <div class="project-item">
+          <div class="upper-row">
+            <h4 class="project-title">{{ project.team }} - {{ project.project}}</h4>
+            <div class="project-time">{{ project.time }}</div>
+          </div>          
+          <div class="project-description">{{ project.description }}</div>
           {% if project.skills %}
           <ul class="skills">
             {% for skill in project.skills %}
