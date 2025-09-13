@@ -2,13 +2,22 @@
 layout: default
 ---
 
+{% assign sidebar = site.data.data.sidebar %}
 
 {% include career-profile.html %}
 
-{% unless site.data.data.sidebar.education %}
-  {% include education.html %}
-{% endunless %}
+{% include skills.html %}
+
+<div class="mobile">
+{% include education.html %}
+</div>
+
+<div class="mobile">
+{% include language.html %}
+</div>
 
 {% include experiences.html %}
 
-{% include skills.html %}
+<div class="mobile">
+{% include interests.html %}
+</div>

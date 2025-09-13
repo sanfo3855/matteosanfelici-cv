@@ -1,125 +1,127 @@
+{% assign contact = site.data.data.contact %}
+
 <div class="contact-container container-block">
   <ul class="list-unstyled contact-list">
 
-    {% if sidebar.email %}
+    {% if contact.email %}
     <li class="email"><i class="fas fa-envelope"></i>
-      <a href="mailto:{{ sidebar.email }}">{{ sidebar.email }}</a>
+      <a href="mailto:{{ contact.email }}">{{ contact.email }}</a>
     </li>
     {% endif %}
 
-    {% if sidebar.phone %}
+    {% if contact.phone %}
     <li class="phone"><i class="fas fa-phone"></i>
-      <a href="tel:{{ sidebar.phone }}">{{ sidebar.phone }}</a>
+      <a href="tel:{{ contact.phone }}">{{ contact.phone }}</a>
     </li>
     {% endif %}
 
-    {% if sidebar.citizenship %}
+    {% if contact.citizenship %}
     <li class="phone"><i class="fas fa-passport"></i>
-      <a href="">{{ sidebar.citizenship }}</a>
+      <a href="">{{ contact.citizenship }}</a>
     </li>
     {% endif %}
 
-    {% if sidebar.timezone %}
+    {% if contact.timezone %}
     <li class="timezone"><i class="fas fa-clock"></i>
-      <a href="https://worldtimeapi.org/timezone/{{ sidebar.timezone }}" target="_blank">{{ sidebar.timezone }} Timezone</a>
+      <a href="https://worldtimeapi.org/timezone/{{ contact.timezone }}" target="_blank">{{ contact.timezone }} Timezone</a>
     </li>
     {% endif %}
 
-    {% if sidebar.telegram %}
+    {% if contact.telegram %}
     <li class="telegram"><i class="fab fa-telegram"></i>
-      <a href="https://t.me/{{ sidebar.telegram }}" target="_blank">{{ sidebar.telegram }}</a>
+      <a href="https://t.me/{{ contact.telegram }}" target="_blank">{{ contact.telegram }}</a>
     </li>
     {% endif %}
 
-    {% if sidebar.website %}
+    {% if contact.website %}
     <li class="website"><i class="fas fa-globe-americas"></i>
-      <a href="{{ sidebar.website }}" target="_blank">{{ sidebar.website }}</a>
+      <a href="{{ contact.website }}" target="_blank">{{ contact.website }}</a>
     </li>
     {% endif %}
 
-    {% if sidebar.linkedin %}
+    {% if contact.linkedin %}
     <li class="linkedin"><i class="fab fa-linkedin"></i>
-      <a href="https://linkedin.com/in/{{ sidebar.linkedin }}" target="_blank">{{ sidebar.linkedin }}</a>
+      <a href="https://linkedin.com/in/{{ contact.linkedin }}" target="_blank">{{ contact.linkedin }}</a>
     </li>
     {% endif %}
 
-    {% if sidebar.xing %}
+    {% if contact.xing %}
     <li class="xing"><i class="fab fa-xing"></i>
-      <a href="https://www.xing.com/profile/{{ sidebar.xing }}" target="_blank">{{ sidebar.xing }}</a>
+      <a href="https://www.xing.com/profile/{{ contact.xing }}" target="_blank">{{ contact.xing }}</a>
     </li>
     {% endif %}
 
-    {% if sidebar.github %}
+    {% if contact.github %}
     <li class="github"><i class="fab fa-github"></i>
-      <a href="https://github.com/{{ sidebar.github }}" target="_blank">{{ sidebar.github }}</a>
+      <a href="https://github.com/{{ contact.github }}" target="_blank">{{ contact.github }}</a>
     </li>
     {% endif %}
 
-    {% if sidebar.gitlab %}
+    {% if contact.gitlab %}
     <li class="gitlab"><i class="fab fa-gitlab"></i>
-      <a href="https://gitlab.com/{{ sidebar.gitlab }}" target="_blank">{{ sidebar.gitlab }}</a>
+      <a href="https://gitlab.com/{{ contact.gitlab }}" target="_blank">{{ contact.gitlab }}</a>
     </li>
     {% endif %}
 
-    {% if sidebar.bitbucket %}
+    {% if contact.bitbucket %}
     <li class="bitbucket"><i class="fab fa-bitbucket"></i>
-      <a href="https://bitbucket.com/{{ sidebar.bitbucket }}" target="_blank">{{ sidebar.bitbucket }}</a>
+      <a href="https://bitbucket.com/{{ contact.bitbucket }}" target="_blank">{{ contact.bitbucket }}</a>
     </li>
     {% endif %}
 
-    {% if sidebar.twitter %}
+    {% if contact.twitter %}
     <li class="twitter"><i class="fab fa-twitter"></i>
-      <a href="https://twitter.com/{{ sidebar.twitter }}" target="_blank">{{ sidebar.twitter }}</a>
+      <a href="https://twitter.com/{{ contact.twitter }}" target="_blank">{{ contact.twitter }}</a>
     </li>
     {% endif %}
-    
-    {% if sidebar.bluesky %}
-    {% assign bluesky_handle = sidebar.bluesky | remove: '@' %}
+
+    {% if contact.bluesky %}
+    {% assign bluesky_handle = contact.bluesky | remove: '@' %}
     <li class="bluesky"><i class="fab fa-bluesky"></i>
-      <a href="https://bsky.app/profile/{{ bluesky_handle }}" target="_blank">{{ sidebar.bluesky }}</a>
+      <a href="https://bsky.app/profile/{{ bluesky_handle }}" target="_blank">{{ contact.bluesky }}</a>
     </li>
     {% endif %}
-    
-    {% if sidebar.mastodon %}
-    {% assign mastodon_handle = sidebar.mastodon | split: '/' %}
+
+    {% if contact.mastodon %}
+    {% assign mastodon_handle = contact.mastodon | split: '/' %}
     <li class="mastodon"><i class="fab fa-mastodon"></i>
-      <a href="{{ sidebar.mastodon }}" target="_blank">{{ mastodon_handle[3] }}@{{ mastodon_handle[2] }}</a>
+      <a href="{{ contact.mastodon }}" target="_blank">{{ mastodon_handle[3] }}@{{ mastodon_handle[2] }}</a>
     </li>
     {% endif %}
 
-    {% if sidebar.stack-overflow %}
+    {% if contact.stack_overflow %}
     <li class="stack-overflow"><i class="fab fa-stack-overflow"></i>
-      <a href="https://stackoverflow.com/users/{{ sidebar.stack-overflow }}" target="_blank">{{ sidebar.stack-overflow }}</a>
+      <a href="https://stackoverflow.com/users/{{ contact.stack_overflow }}" target="_blank">{{ contact.stack_overflow }}</a>
     </li>
     {% endif %}
 
-    {% if sidebar.codewars %}
+    {% if contact.codewars %}
     <li class="codewars"><i class="fas fa-code"></i>
-      <a href="https://www.codewars.com/users/{{ sidebar.codewars }}/completed_solutions" target="_blank">{{ sidebar.codewars }}</a>
+      <a href="https://www.codewars.com/users/{{ contact.codewars }}/completed_solutions" target="_blank">{{ contact.codewars }}</a>
     </li>
     {% endif %}
 
-    {% if sidebar.hackerrank %}
+    {% if contact.hackerrank %}
     <li class="hackerrank"><i class="fab fa-hackerrank"></i>
-      <a href="https://www.hackerrank.com/profile/{{ sidebar.hackerrank }}" target="_blank">{{ sidebar.hackerrank }}</a>
+      <a href="https://www.hackerrank.com/profile/{{ contact.hackerrank }}" target="_blank">{{ contact.hackerrank }}</a>
     </li>
     {% endif %}
 
-    {% if sidebar.leetcode %}
+    {% if contact.leetcode %}
     <li class="leetcode"><i class="fas fa-code"></i>
-      <a href="https://leetcode.com/u/{{ sidebar.leetcode }}" target="_blank">{{ sidebar.leetcode }}</a>
+      <a href="https://leetcode.com/u/{{ contact.leetcode }}" target="_blank">{{ contact.leetcode }}</a>
     </li>
     {% endif %}
 
-    {% if sidebar.goodreads %}
+    {% if contact.goodreads %}
     <li class="goodreads-g"><i class="fab fa-goodreads-g"></i>
-      <a href="https://www.goodreads.com/user/show/{{ sidebar.goodreads }}" target="_blank">{{ sidebar.goodreads }}</a>
+      <a href="https://www.goodreads.com/user/show/{{ contact.goodreads }}" target="_blank">{{ contact.goodreads }}</a>
     </li>
     {% endif %}
 
-    {% if sidebar.pdf %}
+    {% if contact.pdf %}
     <li class="pdf"><i class="fas fa-file-pdf"></i>
-      <a href="{{ sidebar.pdf }}" target="_blank">Resume PDF</a>
+      <a href="{{ contact.pdf }}" target="_blank">Resume PDF</a>
     </li>
     {% endif %}
 

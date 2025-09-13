@@ -2,27 +2,29 @@
 # Be aware that even a small syntax error here can lead to failures in output.
 #
 
-sidebar:
-  position: right # position of the sidebar : left or right
-  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-  education: True # set to False if you want education in main section instead of in sidebar
 
-  # Profile information
+# Sidebar configuration
+sidebar:
+  position: left # position of the sidebar : left or right
+
+# Profile information
+profile:
   name: Matteo Sanfelici
   tagline: Senior Developer and Architect @Technology Reply 
   skills: Solution Design | Microservices and System Integration | Cloud-Native Applications | Data Streaming Pipelines
   avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
+contact:
   # Sidebar links
   email: sanfelicimatteo@gmail.com
   phone: +39 346 1643404
   timezone: Europe/Rome # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
-  citizenship: Italian
+  citizenship: #Italian
   website: # Include the full website URL, including "http://" or "https://".
   linkedin: matteosanfelici
   xing:
   github: sanfo3855
-  telegram: sanfo3855 # add your nickname without '@' sign
+  telegram: #sanfo3855 # add your nickname without '@' sign
   gitlab:
   bitbucket:
   bluesky:  # Specify your full Bluesky handle
@@ -35,32 +37,24 @@ sidebar:
   leetcode: # Please provide your LeetCode username.
   pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
 
-  languages:
-    title: Languages
-    info:
-    - idiom: Italian
-      level: Native
+languages:
+  title: Languages
+  info:
+  - idiom: Italian
+    level: Native
 
-    - idiom: English
-      level: Professional
+  - idiom: English
+    level: Professional
 
-    - idiom: Spanish
-      level: Elementary
+  - idiom: Spanish
+    level: Elementary
 
-  interests:
-    title: Interests
-    info:
-    - item: Travelling
-      link:
-      
-    - item: Climbing
-      link:
-
-    - item: Running
-      link: 
-
-    - item: Cooking
-      link:
+# interests:
+#   title: Interests
+#   info:
+#   - item: Travelling, Climbing, Running (Instagram)
+#     link: https://www.instagram.com/matteosanfelicii/
+    
 
 
 career-profile:
@@ -134,6 +128,7 @@ experiences:
           - Solution Architecture
           - FullStack Development
           - Team Leading
+          - Angular
           - React
           - Dynatrace
           - Java
