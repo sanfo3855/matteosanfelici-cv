@@ -19,8 +19,8 @@ contact:
   email: sanfelicimatteo@gmail.com
   phone: +39 346 1643404
   timezone: Europe/Rome # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
-  citizenship: #Italian
-  website: # Include the full website URL, including "http://" or "https://".
+  citizenship: Italian
+  website: # https://sanfo3855.github.io/matteosanfelici-cv/index.html
   linkedin: matteosanfelici
   xing:
   github: sanfo3855
@@ -29,6 +29,7 @@ contact:
   bitbucket:
   bluesky:  # Specify your full Bluesky handle
   twitter: 
+  instagram: matteosanfelicii
   stack-overflow: # Number/Username, e.g. 123456/alandoe
   codewars:
   goodreads: # Number-Username, e.g. 123456-alandoe
@@ -72,17 +73,17 @@ education:
   title: Education
   info:
   - degree: Masters Degree, Computer Science (System and Networks)
-    degree_original: Laurea Magistrale, Informatica per il Management
+    degree_original: Laurea Magistrale, Informatica
     university: Alma Mater Studiorum - University of Bologna
     time: Sep 2017 - Mar 2020
-    details: |
-      Description of your study
+    degree_result: 110/110
+    details: 
   - degree: Bachelors Degree, Computer Science and Management 
     degree_original: Laurea, Informatica per il Management
     university: Alma Mater Studiorum - University of Bologna
     time: Sep 2014 - Dec 2017
-    details: |
-      Description of your study
+    degree_result: 101/110
+    details: 
 
 experiences:
   title: Experiences

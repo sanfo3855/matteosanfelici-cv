@@ -9,7 +9,7 @@
 
       {% for graduation in education.info %}
       <div class="item">
-        <h4 class="degree">{{ graduation.degree }}</h4>
+        <h4 class="degree">{{ graduation.degree }} - {{ graduation.degree_result }}</h4>
         <h5 class="degree_original">{{ graduation.degree_original }}</h5>
         <h5 class="meta">{{ graduation.university }}</h5>
         <div class="time">{{ graduation.time }}</div>
@@ -35,18 +35,14 @@
         <div class="meta">
 
           <div class="upper-row">
-            <h3 class="degree">{{ graduation.degree }}</h3>
+            <h3 class="degree">{{ graduation.degree }} - {{ graduation.degree_result }}</h3>
             <div class="time">{{ graduation.time }}</div>
           </div><!--//upper-row-->
 
+          <div class="degree_original">{{ graduation.degree_original }}</div>
+
           <div class="university">{{ graduation.university }}</div>
         </div><!--//meta-->
-
-        {% if graduation.details %}
-        <div class="details">
-          {{ graduation.details | markdownify }}
-        </div><!--//details-->
-        {% endif %}
 
       </div><!--//item-->
       {% endfor %}

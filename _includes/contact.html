@@ -35,7 +35,7 @@
 
     {% if contact.website %}
     <li class="website"><i class="fas fa-globe-americas"></i>
-      <a href="{{ contact.website }}" target="_blank">{{ contact.website }}</a>
+      <a href="{{ contact.website }}" target="_blank">Online Resume</a>
     </li>
     {% endif %}
 
@@ -124,6 +124,13 @@
       <a href="{{ contact.pdf }}" target="_blank">Resume PDF</a>
     </li>
     {% endif %}
+
+    {% if contact.instagram %}
+    <li class="pdf"><i class="fab fa-instagram"></i>
+      <a href="https://www.instagram.com/{{ contact.instagram }}" target="_blank"> {{ contact.instagram }}</a>
+    </li>
+    {% endif %}
+
 
   </ul>
 </div><!--//contact-container-->
