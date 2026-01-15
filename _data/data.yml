@@ -347,6 +347,9 @@ skills:
   - name: Microservices
     level: 80%
 
+  - name: FullStack Development
+    level: 70% 
+
   - name: Software Solution Architecture
     level: 65%
   
@@ -356,8 +359,6 @@ skills:
   - name: Data Ingestion and Streaming
     level: 60%
 
-  - name: FullStack Development
-    level: 60% 
 
 
 
