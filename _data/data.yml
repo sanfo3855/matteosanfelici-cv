@@ -374,16 +374,16 @@ skills:
 
   toolset:
   - name: Microservices
-    level: 80%
-
-  - name: FullStack Development
-    level: 70% 
+    level: 90%
 
   - name: Software Solution Architecture
-    level: 65%
+    level: 75%
+
+  - name: FullStack Development
+    level: 75% 
   
   - name: Cloud Applications
-    level: 60%
+    level: 65%
 
   - name: Data Ingestion and Streaming
     level: 60%
