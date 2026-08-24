@@ -88,7 +88,7 @@ education:
 experiences:
   title: Experiences
   info:
-  - role: Senior Developer / Architect / Lead
+  - role: Senior Consultant - Lead Software Engineer / Architect / Team Leader
     time: May 2024 - Now
     company: Technology Reply, Padua / Verona (Remote)
     logo: /assets/images/technology_reply_srl_logo.jpeg
@@ -228,7 +228,7 @@ experiences:
           - Java
           - Openshift (Kubernetes)
 
-  - role: Senior Developer / Team Leader
+  - role: Senior Consultant - Middle Software Engineer / Team Leader
     time: Jan 2023 - Jul 2024
     company: Technology Reply, Milan (Remote)
     logo: /assets/images/technology_reply_srl_logo.jpeg
@@ -261,7 +261,7 @@ experiences:
           - Cobol/DB2
           - OPC IWS Mainframe Scheduler
 
-  - role: Junior Developer
+  - role: Junior Consultant - Software Engineer
     time: May 2020 - Jan 2023
     company: Technology Reply, Milan (Remote)
     logo: /assets/images/technology_reply_srl_logo.jpeg
