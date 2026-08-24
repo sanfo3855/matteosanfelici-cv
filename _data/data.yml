@@ -100,9 +100,7 @@ experiences:
         project: Investement Advisory Platform - IBD (International Banks Division)
         time: Dec 2025 - Now
         description: |
-          Lead Developer at Intesa Sanpaolo, responsible for a team of 8–10 people working on a critical international banking project involving group banks and external vendors such as BlackRock and Armundia. 
-          
-          I led requirements gathering, technical analysis, and the implementation of core FE components (angular) and Microservices (Spring Boot), while contributing to the definition of the end-to-end architecture. I also developed custom libraries to standardize and accelerate development, as well as new backend services, integrating near-real-time Kafka flows and batch processes built on a PySpark-based framework.
+          Lead Developer at Intesa Sanpaolo, leading an 8–10 person team on a critical international banking project. I drove the delivery of core Angular and Spring Boot components, custom development libraries, and backend microservices, contributing to definiton of end-to-end architecture based on Microservices, Kafka and PySpark.
         skills:
           - Team Leading          
           - Web Development
