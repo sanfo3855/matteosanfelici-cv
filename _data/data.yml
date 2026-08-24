@@ -67,7 +67,7 @@ career-profile:
 
     Proving my <b>Technical and Team leading</b> quality I have managed design and release of <b>Fullstack</b> projects from scratch as well as <b>application maintenance</b> and the evolution of existing assets based also on <b>Legacy technology and Architecture</b>.
 
-    In the last year I have moved from a cross Technical / Management role to an <b>Architect role</b>, aiming to deepening my technical knowledge. I've designed various architectural solutions for <b>FullStack Web Projects</b>, <b>Backend with Microservices</b>, <b>Batch processing</b> and <b>Data ingestion / Streaming</b> both in Cloud and On-premises infrastructure.
+    In the last 2 years I have moved from a cross Technical / Management role to an <b>Lead / Architect role</b>, aiming to deepening my technical knowledge. I've designed and led team of developer on various architectural solutions for <b>FullStack Web Projects</b>, <b>Backend with Microservices</b>, <b>Batch processing</b> and <b>Data ingestion / Streaming</b> both in Cloud and On-premises infrastructure.
 
 education:
   title: Education
@@ -93,7 +93,7 @@ experiences:
     company: Technology Reply, Padua / Verona (Remote)
     logo: /assets/images/technology_reply_srl_logo.jpeg
     details: |
-      Led development and architecture design of fullstack solutions, infrastructure configuration / assessments, and data streaming projects. Delivered React libraries, cloud-native solutions, Ververica pipelines, and multi-layered infrastructures, enhancing scalability, reliability, and operational insights.
+      Led development and architecture design of fullstack solutions, infrastructure configuration / assessments, and data streaming projects. Delivered Java, Angular and React libraries, cloud-native solutions, Ververica pipelines, and multi-layered infrastructures, enhancing scalability, reliability, and operational insights.
 
     projects:
       - team: Intesa Sanpaolo 
