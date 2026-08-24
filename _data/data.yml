@@ -90,15 +90,35 @@ experiences:
   info:
   - role: Senior Developer / Architect
     time: May 2024 - Now
-    company: Technology Reply, Padua (Remote)
+    company: Technology Reply, Padua / Verona (Remote)
     logo: /assets/images/technology_reply_srl_logo.jpeg
     details: |
       Led development and architecture design of fullstack solutions, infrastructure configuration / assessments, and data streaming projects. Delivered React libraries, cloud-native solutions, Ververica pipelines, and multi-layered infrastructures, enhancing scalability, reliability, and operational insights.
 
     projects:
+      - team: Intesa Sanpaolo 
+        project: IBD (International Banks Division) Investement Advisory Platform
+        time: Dec 2025 - Now
+        description: |
+          Lead Developer at Intesa Sanpaolo, responsible for a team of 8–10 people working on a critical international banking project involving group banks and external vendors such as BlackRock and Armundia. I led requirements gathering, technical analysis, and the implementation of core FE components (angular) and Microservices (Spring Boot), while contributing to the definition of the end-to-end architecture. I also developed custom libraries to standardize and accelerate development, as well as new backend services, integrating near-real-time Kafka flows and batch processes built on a PySpark-based framework.
+        skills:
+          - Team Leading          
+          - Web Development
+          - Microservices
+          - Solution Architecture
+          - FullStack Development
+          - Angular
+          - Java
+          - Springboot
+          - Git
+          - Openshift (Kubernetes)
+          - PostgreSQL
+          - Mongo DB
+          - State Machine
+          
       - team: Unicredit
         project: Lending Platform
-        time: Jul 2025 - Now
+        time: Jul 2025 - Dec 2025
         description: |
           I worked on the initial setup of a project based on MicroFrontends (React) and Microservices (Spring Boot), configuring the project’s base skeleton, the DevOps pipelines with Jenkins, and the infrastructure as code with Helm to deploy everything on a Kubernetes infrastructure on GCP.
         skills:
@@ -120,7 +140,7 @@ experiences:
 
       - team: Credit Agricole
         project: User Instant Feedback
-        time: Jun 2025 - Now
+        time: Jun 2025 - Mar 2026
         description: |
           Developed a highly optimized React library for user tracking, analytics, and feedback across legacy and modern applications, sending data to Dynatrace for dashboard monitoring. Designed a centralized portal for multi-application campaign management. Contributed to architectural and infrastructure design (React, OpenShift, NGINX, Spring Boot) and collaborated with a development team on implementation.
         skills:
@@ -141,7 +161,7 @@ experiences:
 
       - team: Banco BPM
         project: Home Banking Assessment
-        time: April 2025 - Now
+        time: April 2025 - Dec 2025
         description: |
           Assessed a client’s home banking system, analyzing infrastructure, applications, security, and network components to identify performance bottlenecks. Collaborated with stakeholders to design a multi-layered architecture, reconstruct data flows, and produce detailed diagrams, enhancing system reliability, operational insight, and resilience in complex, high-demand environments.
         skills:
